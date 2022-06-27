@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "218999939533",
+    "firebase_url": "https://rockpaperscissors-a986d-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "rockpaperscissors-a986d",
+    "storage_bucket": "rockpaperscissors-a986d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218999939533:android:ab6596ea3dc26be7c6e484",
+        "android_client_info": {
+          "package_name": "com.paperrockscissors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218999939533-qp7ie9g7h5dbakdkm54nvn1itqu01nqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-5Bk7Ms9GmPoc1U81FLHTRTnMjELaFU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218999939533-qp7ie9g7h5dbakdkm54nvn1itqu01nqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

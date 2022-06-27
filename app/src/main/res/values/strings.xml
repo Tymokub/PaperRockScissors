@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">PaperRockScissors</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="logo">Logo</string>
+    <string name="gameTextRock">Rock</string>
+    <string name="gameTextPaper">Paper</string>
+    <string name="gameTextScissors">Scissors</string>
+    <string name="welcomeText">Zaloguj się, aby zagrać</string>
+    <string name="login">Email</string>
+    <string name="password">Hasło</string>
+    <string name="newAccount">Nie masz konta? Stwórz je</string>
+    <string name="loginBtn">Zaloguj się</string>
+    <string name="welcomeTextNew">Stwórz nowe konto, aby zagrać</string>
+    <string name="registerBtn">Zarejestruj się</string>
+    <string name="oldAccount">Masz już konto? Zaloguj się</string>
+    <string name="newGameText">Stwórz nową grę</string>
+    <string name="roundsNumber">Ilość rund</string>
+    <string name="backMenu">Powrót do menu</string>
+    <string name="startNewGame">Rozpocznij grę</string>
+    <string name="joinGameText">Dołącz do gry</string>
+    <string name="joinGame">Dołącz</string>
+    <string name="gameCode">Kod gry</string>
+    <string name="gameMenu">Menu gry</string>
+    <string name="logout">Wyloguj się</string>
+    <string name="nowa_gra">Nowa gra</string>
+    <string name="do_cz_do_gry">Dołącz do gry</string>
+    <string name="leaderboard">Ranking</string>
+    <string name="leaderboardHeading">Ranking graczy</string>
+    <string name="v">V</string>
+    <string name="username">%1$s</string>
+    <string name="points">%1$d</string>
+    <string name="roundInfo">Runda %1$d/%2$d</string>
+    <string name="yourTurn">Twoja kolej</string>
+    <string name="waitingForOpponentTurn">Oczekiwanie na ruch przeciwnika</string>
+    <string name="youWin">Wygrałeś rundę!</string>
+    <string name="youLose">Przegrałeś rundę</string>
+    <string name="youWinGame">Wygrałeś grę!</string>
+    <string name="youLoseGame">Przegrałeś grę</string>
+    <string name="drawGame">Zremisowałeś grę</string>
+    <string name="draw">Zremisowałeś rundę</string>
+    <string name="s">S</string>
+    <string name="waitingForOponent">Oczekiwanie na przeciwnika</string>
+    <string name="oponentSelected">Oponent turn</string>
+    <string name="userSelected">User selected</string>
+    <string name="rock_button">Rock button</string>
+    <string name="paper_button">Paper button</string>
+    <string name="scissors_button">Scissors button</string>
+</resources>

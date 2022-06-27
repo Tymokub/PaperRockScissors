@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/authFragment">
+
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.paperrockscissors.view.authView.AuthFragment"
+        android:label="auth_fragment"
+        tools:layout="@layout/auth_fragment" >
+        <action
+            android:id="@+id/action_authFragment_to_gameMenuFragment"
+            app:destination="@id/gameMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newGameFragment"
+        android:name="com.paperrockscissors.view.newGameView.NewGameFragment"
+        android:label="new_game_fragment"
+        tools:layout="@layout/new_game_fragment" >
+        <action
+            android:id="@+id/action_newGameFragment_to_gameMenuFragment"
+            app:destination="@id/gameMenuFragment" />
+        <action
+            android:id="@+id/action_newGameFragment_to_gameBoardFragment"
+            app:destination="@id/gameBoardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/joinGameFragment"
+        android:name="com.paperrockscissors.view.joinGameView.JoinGameFragment"
+        android:label="join_game_fragment"
+        tools:layout="@layout/join_game_fragment" >
+        <action
+            android:id="@+id/action_joinGameFragment_to_gameMenuFragment"
+            app:destination="@id/gameMenuFragment" />
+        <action
+            android:id="@+id/action_joinGameFragment_to_gameBoardFragment"
+            app:destination="@id/gameBoardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameMenuFragment"
+        android:name="com.paperrockscissors.view.gameMenuView.GameMenuFragment"
+        android:label="game_menu_fragment"
+        tools:layout="@layout/game_menu_fragment" >
+        <action
+            android:id="@+id/action_gameMenuFragment_to_joinGameFragment"
+            app:destination="@id/joinGameFragment" />
+        <action
+            android:id="@+id/action_gameMenuFragment_to_newGameFragment"
+            app:destination="@id/newGameFragment" />
+        <action
+            android:id="@+id/action_gameMenuFragment_to_authFragment"
+            app:destination="@id/authFragment" />
+        <action
+            android:id="@+id/action_gameMenuFragment_to_leaderBoardFragment"
+            app:destination="@id/leaderBoardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/leaderBoardFragment"
+        android:name="com.paperrockscissors.view.leaderboardView.LeaderBoardFragment"
+        android:label="leader_board_fragment"
+        tools:layout="@layout/leader_board_fragment" >
+        <action
+            android:id="@+id/action_leaderBoardFragment_to_gameMenuFragment"
+            app:destination="@id/gameMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameBoardFragment"
+        android:name="com.paperrockscissors.view.gameBordView.GameBoardFragment"
+        android:label="game_board_fragment"
+        tools:layout="@layout/game_board_fragment" >
+        <action
+            android:id="@+id/action_gameBoardFragment_to_gameMenuFragment"
+            app:destination="@id/gameMenuFragment" />
+    </fragment>
+</navigation>
